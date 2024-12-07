@@ -136,7 +136,10 @@ These updates trigger only on user messages, not on swipes, which reuse existing
    - `Guided Addons.json` for additional features like Persistent Guides.  
    - `Guided Generations.json` for the main Quick Replies.
 
-2. **Import into SillyTavern:**  
+2. **Install LALib**
+   - install the LALib library extension https://github.com/LenAnderson/SillyTavern-LALib
+   - 
+3  **Import into SillyTavern:**  
    Open SillyTavern, go to **Settings > Quick Replies**, and import the `.json` files.  
    **Important:** Import `Guided Addons.json` **FIRST**, then `Guided Generations.json`.
 
