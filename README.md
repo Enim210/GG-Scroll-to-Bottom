@@ -19,6 +19,7 @@ This repository provides a specialized Quick Reply set for [SillyTavern](https:/
   - [🗑 Clear Input](#-clear-input)
   - [⚙️ Automatic Contextual Updates](#️-automatic-contextual-updates)
 - [Installation](#installation)
+- [Troubleshooting](#troubleshooting)
 - [License](#license)
 - [Contributing](#contributing)
 
@@ -28,6 +29,7 @@ This repository provides a specialized Quick Reply set for [SillyTavern](https:/
 
 Each feature is accessed by pressing a **button** with the corresponding emoji. Before selecting a button, ensure you input any necessary instructions into the input field. These Quick Replies are designed to be flexible and modular; feel free to experiment to find what works best for your narrative style.
 
+[Watch the Demo for the Basic Functions](https://youtu.be/16-vO6FGQuw)
 ---
 
 ### 🦮 Guided Next Response
@@ -161,6 +163,24 @@ These updates trigger only on user messages, not on swipes, which reuse existing
 3. **Import into SillyTavern:**  
    - Open SillyTavern, go to **Settings > Quick Replies**, and import the `.json` files.  
    - Add Guided Generatins under the Global or Chat Quick Reply Sets.
+
+**Compatibility:**  
+Ensure you’re using a compatible version of SillyTavern. If you encounter issues, consider updating or checking the SillyTavern documentation.
+
+---
+
+## Troubleshooting
+
+1. **I get Errormessages:**   
+   - SillyTavern needs to be atleast version (1.12.9)
+   - Redownload [LALib library extension](https://github.com/LenAnderson/SillyTavern-LALib) and make sure it is activated in the Extensions
+
+2. **I have only 4 Symbols:**  
+   - You should have a Context Menus on the ➕ that you can open with long press or right click.
+     ![Alt text](Media/ContextMenu.png)
+   - If the Contex menus is missing then make sure it is Setup in the ➕ QR. 
+   ![Alt text](Media/SetContextMenu.png)
+
 
 **Compatibility:**  
 Ensure you’re using a compatible version of SillyTavern. If you encounter issues, consider updating or checking the SillyTavern documentation.
