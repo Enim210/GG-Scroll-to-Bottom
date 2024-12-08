@@ -178,7 +178,9 @@ Ensure you’re using a compatible version of SillyTavern. If you encounter issu
 2. **I have only 4 Symbols:**  
    - You should have a Context Menus on the ➕ that you can open with long press or right click.
      ![Alt text](Media/ContextMenu.png)
-   - If the Contex menus is missing then make sure it is Setup in the ➕ QR. 
+     
+3. **Contex menus is missing:**
+   - If Contex menus is missing then make sure it is Setup in the ➕ QR
    ![Alt text](Media/SetContextMenu.png)
 
 
