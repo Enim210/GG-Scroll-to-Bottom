@@ -4,6 +4,26 @@ This repository provides a specialized Quick Reply set for [SillyTavern](https:/
 
 ---
 
+## Table of Contents
+
+- [Features and Usage Guide](#features-and-usage-guide)
+  - [🦮 Guided Next Response](#-guided-next-response)
+  - [✍️ Guided Impersonation](#-guided-impersonation)
+  - [🤔 Persistent Guides](#-persistent-guides)
+  - [📑 Corrections & Refinements](#-corrections--refinements)
+  - [📋 Spellchecker & Flow Enhancer](#-spellchecker--flow-enhancer)
+- [Additional Utility Quick Replies](#additional-utility-quick-replies)
+  - [➕ Add Reply Without Triggering a Response](#-add-reply-without-triggering-a-response)
+  - [🙋 Edit Intros](#-edit-intros)
+  - [🛟 Recover Input](#-recover-input)
+  - [🗑 Clear Input](#-clear-input)
+  - [⚙️ Automatic Contextual Updates](#️-automatic-contextual-updates)
+- [Installation](#installation)
+- [License](#license)
+- [Contributing](#contributing)
+
+---
+
 ## Features and Usage Guide
 
 Each feature is accessed by pressing a **button** with the corresponding emoji. Before selecting a button, ensure you input any necessary instructions into the input field. These Quick Replies are designed to be flexible and modular; feel free to experiment to find what works best for your narrative style.
@@ -132,16 +152,15 @@ These updates trigger only on user messages, not on swipes, which reuse existing
 
 ## Installation
 
-1. **Download the JSON files:**  
-   - `Guided Addons.json` for additional features like Persistent Guides.  
-   - `Guided Generations.json` for the main Quick Replies.
+1. **Download the JSON file:**   
+   - `Guided Generations.json`
 
-2. **Install LALib**
-   - install the LALib library extension https://github.com/LenAnderson/SillyTavern-LALib
-   - 
-3  **Import into SillyTavern:**  
-   Open SillyTavern, go to **Settings > Quick Replies**, and import the `.json` files.  
-   **Important:** Import `Guided Addons.json` **FIRST**, then `Guided Generations.json`.
+2. **Install LALib:**  
+   - Install the [LALib library extension](https://github.com/LenAnderson/SillyTavern-LALib).
+
+3. **Import into SillyTavern:**  
+   - Open SillyTavern, go to **Settings > Quick Replies**, and import the `.json` files.  
+   - Add Guided Generatins under the Global or Chat Quick Reply Sets.
 
 **Compatibility:**  
 Ensure you’re using a compatible version of SillyTavern. If you encounter issues, consider updating or checking the SillyTavern documentation.
@@ -160,3 +179,7 @@ Contributions are welcome! If you’d like to propose improvements, create new f
 
 **Support & Feedback:**  
 For questions, feedback, or bug reports, open an issue in this repository. Your input helps improve this project for everyone.
+
+---
+
+Let me know if you’d like further refinements!
