@@ -181,9 +181,8 @@ Ensure you’re using a compatible version of SillyTavern. If you encounter issu
      
 3. **Contex menus is missing:**
    - If the context menu is missing, then open quick replies, press the button with three stacked dots next to the ➕ script, ![Alt text](Media/EditGG.png)
-
 then add, or delete and re-add guided generations as a context menu in the top right.
-   ![Alt text](Media/SetContextMenu.png)
+![Alt text](Media/SetContextMenu.png)
 
 
 **Compatibility:**  
