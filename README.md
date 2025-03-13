@@ -64,11 +64,11 @@ Set, modify, and maintain scenario rules or contextual instructions that persist
 
 - **Thinking:**  
   Produces characters’ internal thought processes for added depth.  
-  *Tip:* If the invisible **SysThinking** Quick Reply is set to run on user messages, it updates characters’ thoughts automatically after each input and before guided generation.
+  *Tip:* If the invisible **SysThinking** Quick Reply is set to "Execute on user messages", it updates characters’ thoughts automatically after each input and before guided generation.
 
 - **Clothes and State:**  
   Retrieves details about characters’ attire, state, and positions.  
-  *Tip:* If the invisible **SysClothes** Quick Reply is set to run on user messages, it keeps the scene’s physical continuity current.
+  *Tip:* If the invisible **SysClothes** Quick Reply is set to "Execute on user messages", it keeps the scene’s physical continuity current.
 
 - **Rules:**  
   Creates or updates a list of in-story rules or expectations, ensuring consistent behavior and adherence to established norms.
