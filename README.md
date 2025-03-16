@@ -64,11 +64,11 @@ Set, modify, and maintain scenario rules or contextual instructions that persist
 
 - **Thinking:**  
   Produces characters’ internal thought processes for added depth.  
-  *Tip:* If the invisible **SysThinking** Quick Reply is set to run on user messages, it updates characters’ thoughts automatically after each input and before guided generation.
+  *Tip:* If the invisible **SysThinking** Quick Reply is set to "Execute on user messages", it updates characters’ thoughts automatically after each input and before guided generation.
 
 - **Clothes and State:**  
   Retrieves details about characters’ attire, state, and positions.  
-  *Tip:* If the invisible **SysClothes** Quick Reply is set to run on user messages, it keeps the scene’s physical continuity current.
+  *Tip:* If the invisible **SysClothes** Quick Reply is set to "Execute on user messages", it keeps the scene’s physical continuity current.
 
 - **Rules:**  
   Creates or updates a list of in-story rules or expectations, ensuring consistent behavior and adherence to established norms.
@@ -154,14 +154,19 @@ These updates trigger only on user messages, not on swipes, which reuse existing
 
 ## Installation
 
-1. **Download the JSON file:**   
+1. **Download the JSON files:**   
    - `Guided Generations.json`
+   - `GGSytemPrompt.json`
 
 2. **Install LALib:**  
    - Install the [LALib library extension](https://github.com/LenAnderson/SillyTavern-LALib).
 
-3. **Import into SillyTavern:**  
-   - Open SillyTavern, go to **Settings > Quick Replies**, and import the `.json` files.  
+3. **Import the QR into SillyTavern:**  
+   - Open SillyTavern, go to **Settings > Quick Replies**, and import the `Guided Generations.json` file.  
+   - Add Guided Generatins under the Global or Chat Quick Reply Sets.
+
+4. **Import the Preset into SillyTavern:**  
+   - Open SillyTavern, go to **AI Response Configuartion** (Top Bar, first symbol), and import the `GGSytemPrompt.json` files.  
    - Add Guided Generatins under the Global or Chat Quick Reply Sets.
 
 **Compatibility:**  
@@ -178,8 +183,11 @@ Ensure you’re using a compatible version of SillyTavern. If you encounter issu
 2. **I have only 4 Symbols:**  
    - You should have a Context Menus on the ➕ that you can open with long press or right click.
      ![Alt text](Media/ContextMenu.png)
-   - If the Contex menus is missing then make sure it is Setup in the ➕ QR. 
-   ![Alt text](Media/SetContextMenu.png)
+     
+3. **Contex menus is missing:**
+   - If the context menu is missing, then first try to load into a other chat and then back. If it still isn't showing up then open quick replies, press the button with three stacked dots next to the ➕ script, ![Alt text](Media/EditGG.png)
+then add, or delete and re-add guided generations as a context menu in the top right.
+![Alt text](Media/SetContextMenu.png)
 
 
 **Compatibility:**  
