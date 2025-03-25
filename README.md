@@ -17,7 +17,7 @@ This repository provides a specialized Quick Reply set for [SillyTavern](https:/
   - [🙋 Edit Intros](#-edit-intros)
   - [🛟 Recover Input](#-recover-input)
   - [🗑 Clear Input](#-clear-input)
-  - [⚙️ Automatic Contextual Updates](#️-automatic-contextual-updates)
+  - [⚙️ Setting](#️-settings)
 - [Installation](#installation)
 - [Troubleshooting](#troubleshooting)
 - [License](#license)
