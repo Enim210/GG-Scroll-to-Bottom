@@ -24,8 +24,8 @@
             "name": "Main Prompt",
             "system_prompt": true,
             "role": "system",
-            "content": "[You are an Assistant tasked with writing helpful text and summaries of an ongoing RPG Chat. Make sure to follow the instructions and take the Chat History into account. Keep your answers onpoint and concise. Only output the requested text pure and without any confimation of your task.]",
-            "identifier": "main",
+            "content": "[You are an Assistant tasked with writing helpful text and summaries of an ongoing RPG Chat. Make sure to follow the instructions and take the Chat History into account. Keep your answers onpoint and concise. Only output the requested text, pure and without any confimation of your task or explanation on what you are doing.]",
+                       "identifier": "main",
             "injection_position": 0,
             "injection_depth": 4,
             "forbid_overrides": true
