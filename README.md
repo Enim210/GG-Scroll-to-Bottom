@@ -75,6 +75,7 @@ Set, modify, and maintain scenario rules or contextual instructions that persist
   Retrieves details about characters’ state, and positions.  
   *Tip:* You can chage the settings so that this will get automaticly triggeredn on each 🦮 Guided Next Response and User text in the Settings
 
+
 - **Rules:**  
   Creates or updates a list of in-story rules or expectations, ensuring consistent behavior and adherence to established norms.
 
