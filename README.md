@@ -17,7 +17,7 @@ This repository provides a specialized Quick Reply set for [SillyTavern](https:/
   - [🙋 Edit Intros](#-edit-intros)
   - [🛟 Recover Input](#-recover-input)
   - [🗑 Clear Input](#-clear-input)
-  - [⚙️ Automatic Contextual Updates](#️-automatic-contextual-updates)
+  - [⚙️ Setting](#️-settings)
 - [Installation](#installation)
 - [Troubleshooting](#troubleshooting)
 - [License](#license)
@@ -51,6 +51,7 @@ Transform rough outlines or partial ideas into rich, detailed narratives. Ideal 
 - Type a brief outline into the input field (e.g., *"Describe how you negotiate with the alien diplomat, keeping your cool but emphasizing urgency."*).
 - Press the **✍️** button to execute the Quick Reply.
 - The assistant will expand your outline into a polished narrative.
+- There are seperate Verions for First, second and Third Person perspective. You can toggle them on and of in the Settings
 
 ---
 
@@ -64,11 +65,16 @@ Set, modify, and maintain scenario rules or contextual instructions that persist
 
 - **Thinking:**  
   Produces characters’ internal thought processes for added depth.  
-  *Tip:* If the invisible **SysThinking** Quick Reply is set to "Execute on user messages", it updates characters’ thoughts automatically after each input and before guided generation.
+  *Tip:* You can chage the settings so that this will get automaticly triggeredn on each 🦮 Guided Next Response and User text in the Settings
 
-- **Clothes and State:**  
-  Retrieves details about characters’ attire, state, and positions.  
-  *Tip:* If the invisible **SysClothes** Quick Reply is set to "Execute on user messages", it keeps the scene’s physical continuity current.
+- **Clothes:**  
+  Retrieves details about characters’ attire and look.  
+  *Tip:* You can chage the settings so that this will get automaticly triggeredn on each 🦮 Guided Next Response and User text in the Settings
+
+- **Clothes State:**  
+  Retrieves details about characters’ state, and positions.  
+  *Tip:* You can chage the settings so that this will get automaticly triggeredn on each 🦮 Guided Next Response and User text in the Settings
+
 
 - **Rules:**  
   Creates or updates a list of in-story rules or expectations, ensuring consistent behavior and adherence to established norms.
@@ -144,24 +150,29 @@ Quickly clears the input field if you decide you don’t want to send the curren
 
 ---
 
-### ⚙️ Automatic Contextual Updates
-By enabling **SysClothes** and **SysThinking** Quick Replies to execute on user messages, you ensure automatic updates between your inputs and the assistant’s responses. This maintains a dynamic, context-aware narrative flow.
+### ⚙️ Setting
+This open a settings page where you can check the current state and enable or disable the current state of the Impersonation Variants and Auto Guides.
 
 **Note:**  
-These updates trigger only on user messages, not on swipes, which reuse existing context.
+These Autoguides trigger only on user messages, not on swipes, which reuse existing context.
 
 ---
 
 ## Installation
 
-1. **Download the JSON file:**   
+1. **Download the JSON files:**   
    - `Guided Generations.json`
+   - `GGSytemPrompt.json`
 
 2. **Install LALib:**  
    - Install the [LALib library extension](https://github.com/LenAnderson/SillyTavern-LALib).
 
-3. **Import into SillyTavern:**  
-   - Open SillyTavern, go to **Settings > Quick Replies**, and import the `.json` files.  
+3. **Import the QR into SillyTavern:**  
+   - Open SillyTavern, go to **Settings > Quick Replies**, and import the `Guided Generations.json` file.  
+   - Add Guided Generatins under the Global or Chat Quick Reply Sets.
+
+4. **Import the Preset into SillyTavern:**  
+   - Open SillyTavern, go to **AI Response Configuartion** (Top Bar, first symbol), and import the `GGSytemPrompt.json` files.  
    - Add Guided Generatins under the Global or Chat Quick Reply Sets.
 
 **Compatibility:**  
