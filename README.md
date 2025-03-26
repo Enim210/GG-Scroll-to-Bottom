@@ -173,7 +173,7 @@ These Autoguides trigger only on user messages, not on swipes, which reuse exist
 
 4. **Import the Preset into SillyTavern:**  
    - Open SillyTavern, go to **AI Response Configuartion** (Top Bar, first symbol), and import the `GGSytemPrompt.json` files.  
-   - Add Guided Generatins under the Global or Chat Quick Reply Sets.
+   - Change back to your usual System-Preset.
 
 **Compatibility:**  
 Ensure you’re using a compatible version of SillyTavern. If you encounter issues, consider updating or checking the SillyTavern documentation.
